@@ -12,12 +12,13 @@ float average(int i1, int i2, int i3)
 
 int main()
 {
-	int n1 =0 , n2 = 0, n3 = 0;
-	// changed up the prompts a bit to clarify that this is input
+	int n1 = 0 , n2 = 0, n3 = 0;
+	// changed up the prompts a bit to clarify that this is input and
+	// changes the n2 to n3 in prompt three
 	cout << "This program calculates the average of three numbers." << endl;
 	cout << "Please enter the first number: "; cin >> n1;
 	cout << "Plase enter the second number: "; cin >> n2;
-	cout << "Please enter the third number: "; cin >> n2;
+	cout << "Please enter the third number: "; cin >> n3;
 
 	float a = average(n1, n2, n3);
 
